@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>&lt;shiny-sorm&gt; demo</title>
+    <script type="module" src="../build/shiny-form-wcomponent.js"></script>
+    <style>
+        .panel {
+            width:33%; 
+            height:900px; 
+            display:inline-block;
+            vertical-align: bottom;
+        }
+        #form_view { 
+            width:100%; 
+            height:100%; 
+            background-color: lightskyblue
+        }
+    </style>
+</head>
+
+<body>
+    <div class=panel style="background-color: red">
+        <shiny-form id=form_view class=panel style="background-color: lightgray"></shiny-form -->
+    </div>
+    <div class=panel style="background-color: lightcoral">
+        <pre id=form_schema > aaa </pre>
+    </div>
+    <div class=panel style="background-color: lightgreen">
+        <pre id=form_data > bbb </pre>
+    </div>
+</body>
+
+<script>
+    const elements = {
+        view: document.getElementById('form_view'),
+        schema: document.getElementById('form_schema'),
+        data: document.getElementById('form_data')
+    }
+
+    const loadSample = async () => {
+        const subject = location.hash.substring(1)
+        if (subject) {
+             // const tutodata = await fetch(`./tutos/${subject}.json`).then(r => r.json())
+        }
+    }
+    window.addEventListener('hashchange', goto)
+    window.addEventListener('load', goto)
+
+</script>
+
+</html>

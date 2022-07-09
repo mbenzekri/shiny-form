@@ -1,0 +1,1 @@
+{"version":3,"file":"shiny-form.d.ts","sourceRoot":"","sources":["../src/shiny-form.ts"],"names":[],"mappings":"AACA,OAAO,EAAQ,UAAU,EAAE,MAAM,KAAK,CAAC;AAKvC;;;GAGG;AACH,qBACa,SAAU,SAAQ,UAAU;IAErC,OAAO,CAAC,KAAK,CAAK;IAClB,IACI,IAAI,IACQ,GAAG,CADa;IAChC,IAAI,IAAI,CAAC,KAAK,EAAE,GAAG,EAAwB;IAE3C,MAAM,KAAK,MAAM,8BAKhB;IAED,MAAM;IAIN,iBAAiB;CAIpB"}
